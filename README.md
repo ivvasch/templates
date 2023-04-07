@@ -47,12 +47,12 @@ mvn clean install - соберет плагин в папку target и сохр
 ### Запуск плагина
 ~~~
 mvn groupId:artifactId:version:goal
-    groupId -       <groupId>org.unistream</groupId>
+    groupId -       <groupId>org.unistr</groupId>
     artifactId -    <artifactId>template-maven-plugin</artifactId>
     version -       <version>0.0.1-SNAPSHOT</version>
     goal -          dependency_counter (name указанное в аннотации @Mojo)
 ~~~
 Таким образом в нашем случае запуск плагина будет выглядеть следующим образом:
 ~~~
-mvn org.unistream:template-maven-plugin:0.0.1-SNAPSHOT:dependency_counter
+mvn org.unistr:template-maven-plugin:0.0.1-SNAPSHOT:dependency_counter
 ~~~
