@@ -1,4 +1,4 @@
-package org.unistream;
+package org.unistr;
 
 import org.apache.maven.model.Dependency;
 import org.apache.maven.plugin.AbstractMojo;
